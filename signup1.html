@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOK MY DOC</title>
+	<link rel="stylesheet" type="text/css" href="signup1.css">
+	<script src="signup validation.js"></script>
+</head>
+<body>
+	
+	
+	<form  onsubmit= "return checkform(this)" style="text-align: center;margin-top: 100px;margin-left: 300px;" action="register.php" method="POST">
+		<fieldset>
+			<h1>Join Now</h1>
+			
+		<legend style="text-align: center;margin-left: 390px;">
+			</legend>
+		<div class="section">
+			Firstname:<br>
+		<input type="text" name="fname" style="width:350px; border-radius: 3px 3px 3px 3px;border:1px solid royalblue; margin-left: 0px;" ><br></br>
+		Lastname:<br>
+		<input type="text" name="lname" style="width:350px; border-radius: 3px 3px 3px 3px;border:1px solid royalblue; margin-left: 0px;"><br></br>
+		Email:<br>
+		<input type="email" name="email" style="width:350px; border-radius: 3px 3px 3px 3px;border:1px solid royalblue; margin-left: 0px;"><br></br>
+
+		Contact:<br>
+		<select name="code">
+    <option value="90">90</option>
+    <option value="91">91</option>
+    <option value="92">92</option>
+    <option value="93">93</option>
+  </select>
+		<input type="Contact" name="contact" style="width:306px; border-radius: 3px 3px 3px 3px;border:1px solid royalblue; margin-left: 0px;"><br></br>
+
+		Create a Password:<br>
+		<input type="password" name="pass" style="width:350px; border-radius: 3px 3px 3px 3px;border:1px solid royalblue; margin-left: 0px;" ><br></br>
+		
+		Gender:
+		  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female<br></br>
+   <input type="checkbox" name="checkbox" value="">Accept the term and Condition.<br>
+  <input type="submit" name="Signup" value="Signup">
+</div>
+  </fieldset>
+	</form>
+
+
+</body>
+</html>

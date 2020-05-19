@@ -1,0 +1,49 @@
+body
+{
+	margin:0px;
+	padding:10px:;
+	background:url(doc2.png);
+	background-size: cover;
+	background-position: center;
+	font-family:sans-serif;
+}	
+
+.section{
+	text-align:left;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+fieldset
+{
+	width:900px;
+	height:630px;
+	border-radius: 7px 7px 7px 7px;
+	background:url(sign4.png);
+	background-size: cover;
+
+}
+.error
+{
+	color:red;
+}
+h1{
+	 color: black;
+}
+.section input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 250px;
+	background:#fb2525;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.section input[type="submit"]:hover
+{
+	cursor: pointer;
+	background:#ffc107;
+	color: #000;
+}

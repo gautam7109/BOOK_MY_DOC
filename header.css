@@ -1,0 +1,17 @@
+header {
+  background-color: #BDB76B;
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+header div.a{
+  text-align: right;
+   font-size: 15px;
+   margin:-25px 170px 0px 0px; 
+}
+header div.b{
+  text-align: right;
+   font-size: 15px;
+   margin:-15px 10px 0px 0px; 
+}
